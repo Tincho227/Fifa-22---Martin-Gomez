@@ -1,0 +1,299 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(71, 71, 71);
+}
+header {
+    text-align: center;
+}
+.encabezado {
+    background-color: rgb(71, 71, 71);
+    position: relative;
+    width: 100%;
+    height: 100px;
+    border: 5px solid rgb(180, 231, 83);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 10px;
+}
+.logo {
+    position: relative;
+    top: 15px;
+    width: auto;
+    height: 75px;
+}
+.encabdet {
+    background-color: rgb(71, 71, 71);
+    color: rgb(180, 231, 83);
+    position: relative;
+    top: 5px;
+    width: 100%;
+    height: 25px;
+    border: 5px solid rgb(180, 231, 83);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 10px;
+}
+.botonera {
+    background-color: rgb(71, 71, 71);
+    text-align: center;
+    border-right: 5px solid rgb(180, 231, 83);
+    border-radius: 10px;
+    position: fixed;
+    top: 0px;
+    width: 50px;
+    height: 100%;
+}
+.material-symbols-outlined {
+    color: rgb(180, 231, 83);
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+.row:nth-child(1) {
+    position: relative;
+    top: 110px;
+}
+.row:nth-child(2) {
+    position: relative;
+    top: 220px;
+}
+.row:nth-child(3) {
+    position: relative;
+    top: 330px;
+}
+.row:nth-child(4) {
+    position: relative;
+    top: 440px;
+}
+.datospers {
+    margin: 20px;
+    color: white;
+    position: relative;
+    top: 5px;
+    left: 60px;
+    width: 1000px;
+    height: 130px;
+}
+.estrateg {
+    margin: 20px;
+    color: white;
+    position: relative;
+    top: 5px;
+    left: 60px;
+    width: 1000px;
+    height: 620px;
+}
+img {
+    position: relative;
+    top: 20px;
+    width: 800px;
+    height: 460px;
+}
+.clubes {
+    margin: 20px;
+    color: white;
+    position: relative;
+    top: 5px;
+    left: 60px;
+    width: 1000px;
+    height: 130px;
+}
+.selecciones {
+    margin: 20px;
+    color: white;
+    position: relative;
+    top: 5px;
+    left: 60px;
+    width: 1000px;
+    height: 130px;
+}
+.logros {
+    margin: 20px;
+    color: white;
+    position: relative;
+    top: 5px;
+    left: 60px;
+    width: 1250px;
+    height: 410px;
+}
+.tablac {
+    padding: 5px;
+    text-align: center;
+    color: rgb(71, 71, 71);
+    background-color: rgb(180, 231, 83);
+    border: 1px solid rgb(180, 231, 83);
+    border-radius: 5px;
+}
+th {
+    padding: 5px;
+    text-align: center;
+    color: rgb(180, 231, 83);
+    background-color: rgb(71, 71, 71);
+    border: 1px solid rgb(180, 231, 83);
+    border-radius: 5px;
+}
+td {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid rgb(180, 231, 83);
+    border-radius: 5px;
+}
+table {
+    border-left: 2px solid rgb(180, 231, 83);
+}
+.anuncios {
+    margin: 20px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    left: 60px;
+    width: 1250px;
+    height: 250px;
+}
+.anuncios a img {
+    margin: 20px;
+    border: 3px solid white;
+    border-radius: 15px;
+    width: 341px;
+    height: 192px;
+}
+.piedepagina {
+    margin: 20px;
+    color: white;
+    border-top: 5px solid rgb(180, 231, 83);
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    left: 60px;
+    width: 1235px;
+    height: 50px;
+}
+.piedepagina p {
+    position: relative;
+    top: 20px;
+}
+a {
+    color: rgb(180, 231, 83);
+}
+
+@media all and (min-width:620px) and (max-width:1023px) {
+
+    .encabezado {
+        width: 720px;
+    }
+    .encabdet {
+        width: 720px;
+    }
+    .row:nth-child(1) {
+        top: 17%;
+    }
+    .row:nth-child(2) {
+        top: 34%;
+    }
+    .row:nth-child(3) {
+        top: 51%;
+    }
+    .row:nth-child(4) {
+        top: 68%;
+    }
+    .datospers {
+        width: 580px;
+    }
+    .estrateg {
+        width: 500px;
+        height: 500px;
+    }
+    img {
+        width: 400px;
+        height: 230px;
+    }
+    .clubes {
+        width: 500px;
+        height: 230px;
+    }
+    .selecciones {
+        width: 500px;
+        height: 230px;
+    }
+    .logros {
+        width: 1250px;
+        height: 410px;
+    }
+    .anuncios {
+        left: -225px;
+        width: 1250px;
+        height: 220px;
+    }
+    .anuncios a img {
+        width: 289px;
+        height: 163px;
+    }
+    .piedepagina {
+        width: 670px;
+    }
+}
+@media all and (max-width:600px) {
+    .encabezado {
+        width: 95%;
+    }
+    .encabdet {
+        width: 95%;
+    }
+    .row:nth-child(1) {
+        top: 16%;
+    }
+    .row:nth-child(2) {
+        top: 33%;
+    }
+    .row:nth-child(3) {
+        top: 50%;
+    }
+    .row:nth-child(4) {
+        top: 67%;
+    }
+    .datospers {
+        width: 95%;
+    }
+    .estrateg {
+        width: 80%;
+        height: auto;
+    }
+    img {
+        width: 90%;
+        height: 40%;
+    }
+    .clubes {
+        width: 80%;
+        height: 60%;
+    }
+    .selecciones {
+        width: 80%;
+        height: 60%;
+    }
+    .logros {
+        display: none;
+    }
+    .anuncios {
+        left: 7%;
+        width: 90%;
+        height: 30%;
+    }
+    .anuncios a {
+        display: block;
+    }
+    .anuncios a img {
+        width: 70%;
+    }
+    .piedepagina {
+        width: 78%;
+    }
+}
